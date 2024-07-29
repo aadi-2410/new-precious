@@ -217,7 +217,7 @@ a:hover{
 }
 
 .feature-section{
-    background-image: url("/assets/images/feature-2.png");
+    background-image: url("../images/feature-2.png");
     background-position:center;
     background-attachment: fixed;
     background-size: cover;
@@ -371,7 +371,7 @@ a:hover{
 .owl-carousel .item {
     text-align: center;
     color: white;
-    background-image: url('/assets/images/icon-shape-6.png');
+    background-image: url('../images/icon-shape-6.png');
     background-color: white;
     background-size: cover;
     height: 250px;
@@ -486,7 +486,7 @@ a:hover{
 
 
 .footer-section{
-    background-image: url('/assets/images/footer-bg.png');
+    background-image: url('../images/footer-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
