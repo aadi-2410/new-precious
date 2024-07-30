@@ -88,6 +88,7 @@ a:hover{
     font-size: 16px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
     transition: background-color 0.3s, border 0.3s;
 }
@@ -160,13 +161,13 @@ a:hover{
 }
 
 .goal-heading{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     margin-block: 24px 16px;
 }
 
 .goal-content{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
@@ -197,7 +198,7 @@ a:hover{
     object-fit: contain;
 }
 
-.goal-section > div:hover{
+.goal-section > div > div:hover{
     box-shadow: 0px -5px 0px var(--color-light) inset;
 }
 
@@ -209,10 +210,12 @@ a:hover{
 .about-content{
     line-height: 1.5;
     padding: 20px;
+    font-size: 14px;
 }
 
 .about-content2{
     line-height: 1.5;
+    font-size: 14px;
     padding: 0 20px 20px;
 }
 
@@ -263,6 +266,12 @@ a:hover{
     width: 100%;
     box-shadow: 0px 0px 5px #00000010;
     border-radius: 8px;
+    transition: all 300ms linear;    
+}
+
+.service-div > div:hover {
+    box-shadow: 0px 0px 10px #00000010;
+    scale: 1.01;
 }
 
 .service-content{
@@ -282,6 +291,7 @@ a:hover{
     overflow: hidden;
     font-size: 20px;
     font-weight: 700;
+    line-height: 1.2;
 }
 
 .service-div > div p:nth-child(2){
@@ -363,7 +373,7 @@ a:hover{
     color: white;
 }
 
-.offering-inner-div{
+.technology-inner-div{
     background-color: var(--color-dark); 
     padding-block: 80px 50px;
 }
