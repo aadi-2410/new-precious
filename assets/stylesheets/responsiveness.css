@@ -15,6 +15,12 @@
     .service-div > div{
         min-width: unset;
     }
+    .header-section video{
+        height: 70vh;
+    }
+    .header-content-bold{
+        font-size: 36px;
+    }
     .team-div{
         min-width: 40%;
         flex: 1;
@@ -74,7 +80,10 @@
         margin-right: 0px;
     }
     .header-section video{
-        height: 70vh;
+        height: 40vh;
+    }
+    .header-content{
+        font-size: 20px;
     }
     .service-content{
         padding: 10px 10px 10px 5px;
@@ -86,7 +95,7 @@
         padding-inline: 12px;
     }
     .header-content-bold{
-        font-size: 32px;
+        font-size: 24px;
     }
     .about-section{
         padding: 100px 0px 0px;

@@ -7,6 +7,7 @@
     <title>Precious Infosystem</title>
     <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <link rel="stylesheet" href="assets/stylesheets/path.css" />
     <link rel="stylesheet" href="assets/stylesheets/responsiveness.css" />
     <link rel="shortcut icon" href="assets/images/logo/preciousLogo01.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -434,7 +435,7 @@
         </h5>
         <div class="inner-review">
             <div class="review-parent-div">
-                <div class="owl-carousel owl-carousel-review owl-theme d-block mt-5" style="max-width: 992px; margin: auto;">
+                <div class="owl-carousel owl-carousel-review owl-theme d-block mt-5">
                     <div class="item d-flex gap-3 align-items-center position-relative">
                       <div class="review-img">
                           <img class="reviewer-img" src="assets/images/consultant.png" alt="">
@@ -638,45 +639,6 @@
         </div>
     </footer>
 
-    <script>
-        $(document).ready(function () {
-            $(".owl-carousel.owl-carousel-technology").owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    600: {
-                        items: 3,
-                    },
-                    1000: {
-                        items: 5,
-                    },
-                },
-            });
-        });
-        $(document).ready(function () {
-            $(".owl-carousel.owl-carousel-review").owlCarousel({
-                loop: true,
-                margin: 70,
-                dots: false,
-                autoplay: true,
-                nav: false,
-                autoplayTimeout:1500,
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    767: {
-                        items: 2,
-                    },
-                },
-            });
-        });
-    </script>
     <script src="assets/javascript/custom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
         integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
