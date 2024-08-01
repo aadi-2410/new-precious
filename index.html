@@ -90,11 +90,11 @@
             <button class="custom-btn mt-5">Contact us</button>
         </div>
     </header>
-    <section class="container mx-auto row d-flex align-items-center about-section mt-3 mt-md-5 pt-0 pt-md-5">
-        <div class="col-6">
+    <section class="container mx-auto row d-flex align-items-center about-section">
+        <div class="col-md-6 col-12 order-1 order-md-0">
             <img class="about-img" src="assets/images/about.png" width="100%" alt="" />
         </div>
-        <div class="col-6 text-center ps-3">
+        <div class="col-md-6 col-12 text-center ps-3">
             <p class="heading-text mb-3">
                 ABOUT OUR <span class="primary-color">COMPANY</span>
             </p>
@@ -118,8 +118,8 @@
         <p class="text-center my-4 mb-5" style="max-width: 850px; margin: auto; line-height: 1.4; font-size: 14px;">
             In our software development process, we prioritize collaboration, transparency, and adaptability. We begin by engaging closely with our clients to thoroughly understand their unique needs and goals. This initial discovery phase allows us to define clear project requirements and establish a roadmap. Our team of expert developers then employs agile methodologies, breaking down the project into manageable sprints that enable continuous feedback and iterative improvement
         </p>
-        <div class="d-flex ">
-            <div class="col-3 goal-div-1 text-center">
+        <div class="d-flex flex-wrap">
+            <div class="col-sm-6 col-md-3 col-12 goal-div-1 text-center">
                 <img src="assets/images/goal-1.png" alt="" />
                 <p class="goal-heading">Identify the problem</p>
                 <p class="goal-content">
@@ -127,7 +127,7 @@
                     consequuntur ullam deleniti quae molestias corporis
                 </p>
             </div>
-            <div class="col-3 goal-div-2 text-center">
+            <div class="col-sm-6 col-md-3 col-12 goal-div-2 text-center">
                 <img src="assets/images/goal-2.png" alt="" />
                 <p class="goal-heading">Find a solution</p>
                 <p class="goal-content">
@@ -135,7 +135,7 @@
                     consequuntur ullam deleniti quae molestias corporis
                 </p>
             </div>
-            <div class="col-3 goal-div-3 text-center">
+            <div class="col-sm-6 col-md-3 col-12 goal-div-3 text-center">
                 <img src="assets/images/goal-3.png" alt="" />
                 <p class="goal-heading">Code it</p>
                 <p class="goal-content">
@@ -143,7 +143,7 @@
                     consequuntur ullam deleniti quae molestias corporis
                 </p>
             </div>
-            <div class="col-3 goal-div-4 text-center">
+            <div class="col-sm-6 col-md-3 col-12 goal-div-4 text-center">
                 <img src="assets/images/goal-4.png" alt="" />
                 <p class="goal-heading">Test it</p>
                 <p class="goal-content">
@@ -245,7 +245,7 @@
                     Explore the advanced technologies we leverage to deliver cutting-edge solutions. From the latest programming languages and frameworks to cloud computing and AI, we harness a diverse tech stack to create innovative, and efficient software. Discover how our technological expertise can elevate your business to the next level.
                 </p>
                 <div class="d-flex flex-sm-row flex-column w-100 gap-5 gap-sm-3">
-                    <div class="owl-carousel owl-theme d-flex">
+                    <div class="owl-carousel owl-carousel-technology owl-theme d-flex">
                         <div class="item position-relative">
                             <a href="">
                                 <img src="assets/images/reactjs.png" style="object-fit: cover; width: 70px !important; margin-bottom: 12px; border-radius: 16px;" alt="">
@@ -351,7 +351,7 @@
         </div>
     </section>
     <section class="team-section position-relative">
-        <img src="assets/images/icon-lines-6.png" class="position-absolute top-0 start-50 w-100 h-100" alt="" style="
+        <img src="assets/images/icon-lines-6.png" class="position-absolute top-0 start-50 w-100 h-100 d-none d-sm-block" alt="" style="
           transform: translateX(-50%);
           object-fit: contain;
           z-index: -1;
@@ -366,17 +366,8 @@
                     Meet our team of passionate experts who bring innovation and excellence to every project. Our talented professionals, from developers and designers to strategists and project managers, are dedicated to delivering exceptional results. Get to know the creative minds and skilled hands behind our success, and see how our collaborative spirit drives our achievements.
                 </p>
             </div>
-            <!-- <div class="fade-color mt-4" >
-                At our company, we pride ourselves on having a team of highly skilled
-                and dedicated professionals who bring a wealth of experience and
-                expertise to the table. Our team is composed of industry leaders,
-                innovative thinkers, and passionate individuals who are committed to
-                delivering exceptional results. Each member of our team plays a
-                crucial role in driving our mission forward and ensuring that we
-                provide top-notch services to our clients.
-            </div> -->
         </div>
-        <div class="container d-flex gap-5 align-items-center justify-content-between pt-3">
+        <div class="container d-flex gap-2 gap-md-5 inner-team-section align-items-center justify-content-between pt-3">
             <div class="team-div">
                 <img src="assets/images//feature.png" height="250px" class="w-100" alt="" />
                 <div class="text-center p-3 name-div">
@@ -437,6 +428,53 @@
             <button class="custom-btn mt-5 mx-auto">Get a Quotes</button>
         </div>
     </section>
+    <section class="review-section">
+        <h5 class="heading-text text-center text-dark">
+            See What Our <span class="primary-color">Clients</span> Are Saying
+        </h5>
+        <div class="inner-review">
+            <div class="review-parent-div">
+                <div class="owl-carousel owl-carousel-review owl-theme d-block mt-5" style="max-width: 992px; margin: auto;">
+                    <div class="item d-flex gap-3 align-items-center position-relative">
+                      <div class="review-img">
+                          <img class="reviewer-img" src="assets/images/consultant.png" alt="">
+                      </div>
+                      <div class="review-content">
+                          <div class="review-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur 
+                          </div>
+                          <div class="reviewer-name">John Smith</div>
+                          <div class="reviewer-post">CEO, Founder of XYZ</div>
+                      </div>
+                    </div>
+                    <div class="item d-flex gap-3 align-items-center position-relative">
+                      <div class="review-img">
+                          <img class="reviewer-img" src="assets/images/consultant.png" alt="">
+                      </div>
+                      <div class="review-content">
+                          <div class="review-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur 
+                          </div>
+                          <div class="reviewer-name">John Smith</div>
+                          <div class="reviewer-post">CEO, Founder of XYZ</div>
+                      </div>
+                    </div>
+                    <div class="item d-flex gap-3 align-items-center position-relative">
+                      <div class="review-img">
+                          <img class="reviewer-img" src="assets/images/consultant.png" alt="">
+                      </div>
+                      <div class="review-content">
+                          <div class="review-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur 
+                          </div>
+                          <div class="reviewer-name">John Smith</div>
+                          <div class="reviewer-post">CEO, Founder of XYZ</div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
     <!-- <section class="success-section">
         <div class="container mx-auto">
             <p class="heading-text text-center mb-4">
@@ -475,47 +513,57 @@
                 Connect with us to transform your ideas into reality with cutting-edge software solutions. Let's collaborate and innovate together, creating a seamless digital experience tailored to your needs. Your journey to efficient, reliable technology starts here—reach out to us today!
             </p>
             <div class="d-flex align-items-center gap-3 mt-5 consultant-div bg-light">
-                <div class="">
+                <div class="d-none d-sm-block">
                     <img class="consultant-img" src="assets/images/consultant.png" alt="">
                 </div>
-                <div class="">
+                <div class="p-3">
                     <form action="#!">
-                        <div class="row gy-4 px-4 px-xl-5">
-                          <div class="col-12">
+                        <div class="d-flex flex-column gap-3">
+                          <div class="">
                             <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
                           </div>
-                          <div class="col-12 col-md-6">
-                            <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
-                            <div class="input-group">
-                              <span class="input-group-text">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                                </svg>
-                              </span>
-                              <input type="email" class="form-control" id="email" name="email" value="" required>
-                            </div>
-                          </div>
-                          <div class="col-12 col-md-6 ps-md-2">
+                          <div class="d-flex flex-md-row flex-column gap-3">
+                            <div class="" style="flex: 1;">
+                                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                <div class="input-group">
+                                  <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg>
+                                  </span>
+                                  <input type="email" class="form-control" id="email" name="email" value="" required>
+                                </div>
+                              </div>
+                            <div class="" style="flex: 1;">
                             <label for="phone" class="form-label">Phone Number</label>
                             <div class="input-group">
-                              <span class="input-group-text">
+                                <span class="input-group-text">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
                                 </svg>
-                              </span>
-                              <input type="tel" class="form-control" id="phone" name="phone" value="">
+                                </span>
+                                <input type="tel" class="form-control" id="phone" name="phone" value="">
+                            </div>
                             </div>
                           </div>
-                          <div class="col-12">
+                          <div class="">
                             <label for="fullname" class="form-label">Subject <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
+                            <select class="form-select" id="exampleSelect">
+                                <option selected disabled>Select..</option>
+                                <option class="spacer-option" disabled>──────────</option>
+                                <option value="1">Web Development</option>
+                                <option value="2">App Development</option>
+                                <option value="3">Graphic & UI/UX Design</option>
+                                <option value="3">Digital Marketing</option>
+                                <option value="3">IT Consulting</option>
+                            </select>
                           </div>
-                          <div class="col-12">
+                          <div class="">
                             <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
                             <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                           </div>
-                          <div class="col-12">
+                          <div class="">
                             <div class="d-grid">
                               <button class="custom-btn text-center btn-md" type="submit">Submit</button>
                             </div>
@@ -575,14 +623,13 @@
             <div class="col-lg-2 col-md-4 footer-links">
                 <p>Contact Us</p>
                 <ul>
-                    <li>
-                        <a href="">
-                            Address: 142, 3rd floor, Electronic Complex, Pardesipura,
+                    <li class="text-white d-flex gap-2 mb-3" style="line-height: 1.3; font-size: 14px;">
+                        Address: 
+                            142-A, 3rd floor, New Electronic Complex, Pardesipura,
                             Indore, MP (452010)
-                        </a>
                     </li>
-                    <li><a href=""> Email: contact@preciousinfosystem.com </a></li>
-                    <li><a href=""> Mobile No: +91-7880087103 </a></li>
+                    <li class="text-white d-flex gap-2 flex-wrap">Email: <a href=""> contact@preciousinfosystem.com </a></li>
+                    <li class="text-white d-flex gap-2">Mobile No: <a href=""> +91-9630449441 </a></li>
                 </ul>
             </div>
         </div>
@@ -593,9 +640,10 @@
 
     <script>
         $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
+            $(".owl-carousel.owl-carousel-technology").owlCarousel({
                 loop: true,
                 margin: 10,
+                autoplay: true,
                 nav: true,
                 responsive: {
                     0: {
@@ -606,6 +654,24 @@
                     },
                     1000: {
                         items: 5,
+                    },
+                },
+            });
+        });
+        $(document).ready(function () {
+            $(".owl-carousel.owl-carousel-review").owlCarousel({
+                loop: true,
+                margin: 70,
+                dots: false,
+                autoplay: true,
+                nav: false,
+                autoplayTimeout:1500,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    767: {
+                        items: 2,
                     },
                 },
             });

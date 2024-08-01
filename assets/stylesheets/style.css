@@ -202,6 +202,10 @@ a:hover{
     box-shadow: 0px -5px 0px var(--color-light) inset;
 }
 
+.about-section{
+    padding-top: 100px;
+}
+
 .about-section .about-img{
     border-radius: 10px;
     box-shadow: 0px 0px 5px #00000010;
@@ -392,18 +396,18 @@ a:hover{
     transition: all 300ms ease;
 }
 
-.owl-carousel .item:hover {
+.owl-carousel-technology .item:hover {
     margin-top: 20px;
     background-color: var(--color-light);
     border: 7px solid white;
 }
 
-.owl-carousel .item:hover div {
+.owl-carousel-technology .item:hover div {
     background-color: var(--color-light) !important;
     bottom: -55px !important;
 }
 
-.owl-carousel .item:hover * {
+.owl-carousel-technology .item:hover * {
     color: white !important;
 }
 
@@ -418,9 +422,11 @@ a:hover{
     overflow: unset !important;
 }
 
+.owl-carousel-technology{
+    height: 330px;
+}
 .owl-carousel{
     overflow: hidden !important;
-    height: 330px;
 }
 
 .owl-carousel .owl-nav{
@@ -477,6 +483,17 @@ a:hover{
     padding: 100px 0px;
 }
 
+.contact-section .form-control,
+.contact-section .form-select{
+    font-size: 14px;
+    padding-block: 7px;
+}
+
+.spacer-option {
+    color: transparent;
+    background-color: transparent;
+  }
+
 .consultant-div{
     border-radius: 12px;
 }
@@ -496,7 +513,61 @@ a:hover{
     height: 500px;
 }
 
+.review-section {
+    /* background-image: url("../images/review.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #00000010;
+    padding-block: 70px;
+}
 
+.inner-review {
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+}
+
+.reviewer-post{
+    font-size: 10px;
+    margin-top: 3px;
+    color: var(--color-dark);
+    line-height: normal;
+}
+
+.review-img .reviewer-img{
+    max-width: 100px !important;
+    border-radius: 50%;
+    border: 3px solid #00000010;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.review-parent-div .item {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.review-text{
+    font-size: 14px;
+    color: #777777;
+    line-height: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.reviewer-name{
+    font-size: 16px;
+    color: black;
+    line-height: normal;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 15px;
+}
 
 
 
