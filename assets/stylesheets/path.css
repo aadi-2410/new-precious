@@ -27,3 +27,30 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.about-page-header{
+    padding: 100px 0;
+    background-image: url('../images/about-head.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.career-page-header{
+    padding: 100px 0;
+    background-image: url('../images/career-head.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.portfolio-page-header{
+    padding: 100px 0;
+    background-image: url('../images/portfolio-head.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
