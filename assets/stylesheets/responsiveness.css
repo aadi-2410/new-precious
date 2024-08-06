@@ -32,8 +32,8 @@
     .inner-team-section{
         flex-wrap: wrap;
     }
-    .inner-team-section .team-div:nth-child(3),
-    .inner-team-section .team-div:nth-child(4){
+    .index-team-section .team-div:nth-child(3),
+    .index-team-section .team-div:nth-child(4){
         display: none;
     }
     .review-section,
