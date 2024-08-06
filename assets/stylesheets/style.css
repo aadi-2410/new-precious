@@ -390,6 +390,13 @@ a:hover{
     padding-block: 80px 50px;
 }
 
+.technology-icon{
+    object-fit: cover;
+    width: 80px !important;
+    margin-bottom: 12px; 
+    border-radius: 16px;
+}
+
 .owl-carousel-technology .item:hover {
     margin-top: 20px;
     background-color: var(--color-light);
@@ -417,7 +424,7 @@ a:hover{
 }
 
 .owl-carousel-technology{
-    height: 330px;
+    height: 230px;
 }
 .owl-carousel{
     overflow: hidden !important;
