@@ -35,3 +35,11 @@ $(document).ready(function () {
         },
     });
 });
+
+function cancelFunction() {
+    document.getElementById("applymodal").style.display = "none";
+}
+
+function applyModalOpen() {
+    document.getElementById("applymodal").style.display = "block";
+}
