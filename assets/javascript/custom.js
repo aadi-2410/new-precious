@@ -42,4 +42,13 @@ function cancelFunction() {
 
 function applyModalOpen() {
     document.getElementById("applymodal").style.display = "block";
+    document.getElementById("applydetailmodal").style.display = "none";
+}
+
+function cancelDetailFunction() {
+    document.getElementById("applydetailmodal").style.display = "none";
+}
+
+function applyDetailModalOpen() {
+    document.getElementById("applydetailmodal").style.display = "block";
 }
