@@ -12,6 +12,9 @@
 } */
 
 @media (max-width: 992px) {
+    .portfolio-img-div{
+        max-width: 48%;
+    }
     .dropdown-menu{
         border: none;
         margin-left: 30px;
@@ -72,7 +75,6 @@
         font-size: 32px;
     }
     .about-section .about-img{
-        max-width: 500px;
         margin-top: 24px;
         max-height: 500px;
     }
@@ -83,8 +85,20 @@
     }
 }
 @media (max-width: 600px) {
+    .portfolio-img-div{
+        max-width: 100%;
+    }
+    .apply-modal-form{
+        max-width: 90%;
+    }
+    .market-text{
+        border-right: none;
+    }
     .service-div > div p:first-child{
         font-size: 18px;
+    }
+    .about-section .about-img{
+        height: unset;
     }
     .service-div > div img{
         width: 100px;
@@ -175,8 +189,11 @@
 
 @media (max-width: 485px){
     .team-div{
-        min-width: 100%;
+        min-width: 47%;
         flex: 1;
+    }
+    .team-div img{
+        height: 160px !important;
     }
 }
 

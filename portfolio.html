@@ -43,11 +43,11 @@
                             Services
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Web Development</a></li>
-                            <li><a class="dropdown-item" href="#">App Development</a></li>
-                            <li><a class="dropdown-item" href="#">Graphic & UI/UX Design</a></li>
-                            <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
-                            <li><a class="dropdown-item" href="#">IT Consulting</a></li>
+                            <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
+                            <li><a class="dropdown-item" href="web-development.html">App Development</a></li>
+                            <li><a class="dropdown-item" href="web-development.html">Graphic & UI/UX Design</a></li>
+                            <li><a class="dropdown-item" href="web-development.html">Digital Marketing</a></li>
+                            <li><a class="dropdown-item" href="web-development.html">IT Consulting</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -56,14 +56,14 @@
                             Technology
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">React Js</a></li>
-                            <li><a class="dropdown-item" href="#">Angular Js</a></li>
-                            <li><a class="dropdown-item" href="#">Next Js</a></li>
-                            <li><a class="dropdown-item" href="#">Vue Js</a></li>
-                            <li><a class="dropdown-item" href="#">Php</a></li>
-                            <li><a class="dropdown-item" href="#">Python</a></li>
-                            <li><a class="dropdown-item" href="#">ROR</a></li>
-                            <li><a class="dropdown-item" href="#">Rails</a></li>
+                            <li><a class="dropdown-item" href="react.html">React Js</a></li>
+                            <li><a class="dropdown-item" href="react.html">Angular Js</a></li>
+                            <li><a class="dropdown-item" href="react.html">Next Js</a></li>
+                            <li><a class="dropdown-item" href="react.html">Vue Js</a></li>
+                            <li><a class="dropdown-item" href="react.html">Php</a></li>
+                            <li><a class="dropdown-item" href="react.html">Python</a></li>
+                            <li><a class="dropdown-item" href="react.html">ROR</a></li>
+                            <li><a class="dropdown-item" href="react.html">Rails</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -82,56 +82,140 @@
     <header class="header-section d-flex justify-content-center align-items-center position-relative portfolio-page-header">
         <p class="portfolio-header-content">Company Portfolio</p>
     </header>
-    <section class="container mx-auto about-section mb-5">
-        <div class="row d-flex align-items-center">
-            <div class="col-md-6 col-12 order-1 order-md-0">
-            <img class="about-img" src="assets/images/about-page-1.png" width="100%" alt="" />
-        </div>
-        <div class="col-md-6 col-12 ps-md-3">
-            <div class="project-name mt-2"><b>Project Name:</b> Groove Packer</div>
-            <div class="project-detail mt-3"><b>Details:</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe provident autem et tempore ipsum accusantium unde mollitia quo, similique soluta excepturi sed voluptatem enim laborum recusandae dolore a deserunt quaerat qui delectus esse possimus explicabo commodi vel? Praesentium quae, odio unde esse ea reprehenderit a corporis possimus qui dicta? Ab?</div>
-            <div class="project-detail mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe provident autem et tempore ipsum accusantium unde mollitia quo, similique soluta excepturi sed voluptatem enim laborum recusandae dolore a deserunt quaerat qui delectus esse possimus explicabo commodi vel? Praesentium quae, odio unde esse ea reprehenderit a corporis possimus qui dicta? Ab?</div>
-            <div class="project-technology mt-4"><b>Technology:</b> HTML, CSS, React Js, ROR, My Sql</div>
-            <button class="custom-btn"><a href="" class="text-decoration-none">Visit Website</a></button>
-        </div>
-        </div>
-        
-        <div class="row d-flex align-items-center mt-5">
-            <div class="col-md-6 col-12 pe-md-3">
-                <div class="project-name mt-2"><b>Project Name:</b> Groove Packer</div>
-                <div class="project-detail mt-3"><b>Details:</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe provident autem et tempore ipsum accusantium unde mollitia quo, similique soluta excepturi sed voluptatem enim laborum recusandae dolore a deserunt quaerat qui delectus esse possimus explicabo commodi vel? Praesentium quae, odio unde esse ea reprehenderit a corporis possimus qui dicta? Ab?</div>
-                <div class="project-detail mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe provident autem et tempore ipsum accusantium unde mollitia quo, similique soluta excepturi sed voluptatem enim laborum recusandae dolore a deserunt quaerat qui delectus esse possimus explicabo commodi vel? Praesentium quae, odio unde esse ea reprehenderit a corporis possimus qui dicta? Ab?</div>
-                <div class="project-technology mt-4"><b>Technology:</b> HTML, CSS, React Js, ROR, My Sql</div>
-                <button class="custom-btn"><a href="" class="text-decoration-none">Visit Website</a></button>
+
+    <section class="container mx-auto portfolio-section mt-5 pt-5 mb-5">
+        <p class="heading-text text-center">Recent <span class="primary-color">Projects</span></p>
+        <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="web-tab" data-bs-toggle="tab" data-bs-target="#web-dev" type="button" role="tab" aria-controls="web-dev" aria-selected="true">Web App</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile-dev" type="button" role="tab" aria-controls="mobile-dev" aria-selected="false">Mobile App</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-dev" type="button" role="tab" aria-controls="design-dev" aria-selected="false">Design</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="web-dev" role="tabpanel" aria-labelledby="web-tab">
+                <div class="d-flex portfolio-img-parent-div justify-content-center gap-3 flex-wrap">
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/about-head.png" alt="">
+                    </div>
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/portfolio-head.png" alt="">
+                    </div>
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/career-head.png" alt="">
+                    </div>
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/feature-2.png" alt="">
+                    </div>
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/about.png" alt="">
+                    </div>
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/review.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 col-12 order-0 order-md-1">
-                <img class="about-img" src="assets/images/about-page-1.png" width="100%" alt="" />
+            <div class="tab-pane fade" id="mobile-dev" role="tabpanel" aria-labelledby="mobile-tab">
+                <div class="d-flex portfolio-img-parent-div justify-content-center gap-3 flex-wrap">
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/feature-2.png" alt="">
+                    </div>
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/about.png" alt="">
+                    </div>
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/review.png" alt="">
+                    </div>
+                </div>
             </div>
-        </div>
-        
-        <div class="row d-flex align-items-center mt-5">
-            <div class="col-md-6 col-12 order-1 order-md-0">
-            <img class="about-img" src="assets/images/about-page-1.png" width="100%" alt="" />
-        </div>
-        <div class="col-md-6 col-12 ps-md-3">
-            <div class="project-name mt-2"><b>Project Name:</b> Groove Packer</div>
-            <div class="project-detail mt-3"><b>Details:</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe provident autem et tempore ipsum accusantium unde mollitia quo, similique soluta excepturi sed voluptatem enim laborum recusandae dolore a deserunt quaerat qui delectus esse possimus explicabo commodi vel? Praesentium quae, odio unde esse ea reprehenderit a corporis possimus qui dicta? Ab?</div>
-            <div class="project-detail mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe provident autem et tempore ipsum accusantium unde mollitia quo, similique soluta excepturi sed voluptatem enim laborum recusandae dolore a deserunt quaerat qui delectus esse possimus explicabo commodi vel? Praesentium quae, odio unde esse ea reprehenderit a corporis possimus qui dicta? Ab?</div>
-            <div class="project-technology mt-4"><b>Technology:</b> HTML, CSS, React Js, ROR, My Sql</div>
-            <button class="custom-btn"><a href="" class="text-decoration-none">Visit Website</a></button>
-        </div>
-        </div>
-        
-        <div class="row d-flex align-items-center mt-5">
-            <div class="col-md-6 col-12 pe-md-3">
-                <div class="project-name mt-2"><b>Project Name:</b> Groove Packer</div>
-                <div class="project-detail mt-3"><b>Details:</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe provident autem et tempore ipsum accusantium unde mollitia quo, similique soluta excepturi sed voluptatem enim laborum recusandae dolore a deserunt quaerat qui delectus esse possimus explicabo commodi vel? Praesentium quae, odio unde esse ea reprehenderit a corporis possimus qui dicta? Ab?</div>
-                <div class="project-detail mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe provident autem et tempore ipsum accusantium unde mollitia quo, similique soluta excepturi sed voluptatem enim laborum recusandae dolore a deserunt quaerat qui delectus esse possimus explicabo commodi vel? Praesentium quae, odio unde esse ea reprehenderit a corporis possimus qui dicta? Ab?</div>
-                <div class="project-technology mt-4"><b>Technology:</b> HTML, CSS, React Js, ROR, My Sql</div>
-                <button class="custom-btn"><a href="" class="text-decoration-none">Visit Website</a></button>
-            </div>
-            <div class="col-md-6 col-12 order-0 order-md-1">
-                <img class="about-img" src="assets/images/about-page-1.png" width="100%" alt="" />
+            <div class="tab-pane fade" id="design-dev" role="tabpanel" aria-labelledby="design-tab">
+                <div class="d-flex portfolio-img-parent-div justify-content-center gap-3 flex-wrap">
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/about-head.png" alt="">
+                    </div>
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/portfolio-head.png" alt="">
+                    </div>
+                    <div class="portfolio-img-div position-relative">
+                        <div class="portfolio-content justify-content-between position-absolute">
+                            <p class="text-white" style="font-size: 14px; font-weight: 700;">Lorem, ipsum dolor.</p>
+                            <button class="custom-btn mt-0 py-1 px-2">
+                                <a href="" class="text-decoration-none" style="font-size: 12px;">Visit Website</a>
+                            </button>
+                        </div>
+                        <img src="assets/images/career-head.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
 

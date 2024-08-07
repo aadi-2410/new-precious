@@ -6,6 +6,22 @@
     position: relative;
 }
 
+.service-detail-section{
+    background-image: url("../images/portfolio-head.png");
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.tech-detail-section{
+    background-image: url("../images/react-bg.png");
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
 .owl-carousel-technology .item {
     text-align: center;
     color: white;
@@ -49,6 +65,24 @@
 .portfolio-page-header{
     padding: 100px 0;
     background-image: url('../images/portfolio-head.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.webdev-page-header{
+    padding: 100px 0;
+    background-image: url('../images/web-dev.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.react-header{
+    padding: 100px 0;
+    background-image: url('../images/react-bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
