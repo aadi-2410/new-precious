@@ -45,46 +45,51 @@
 }
 
 .about-page-header{
-    padding: 100px 0;
+    padding: 100px 12px;
     background-image: url('../images/about-head.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
+
 }
 
 .career-page-header{
-    padding: 100px 0;
+    padding: 100px 12px;
     background-image: url('../images/career-head.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
+
 }
 
 .portfolio-page-header{
-    padding: 100px 0;
+    padding: 100px 12px;
     background-image: url('../images/portfolio-head.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
+
 }
 
 .webdev-page-header{
-    padding: 100px 0;
+    padding: 100px 12px;
     background-image: url('../images/web-dev.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
+
 }
 
 .react-header{
-    padding: 100px 0;
+    padding: 100px 12px;
     background-image: url('../images/react-bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
+
 }

@@ -1,17 +1,27 @@
-/* @media (max-width: 1199px) {
-    .about-section .about-img{
-        max-width: 350px;
-        max-height: 350px;
-        aspect-ratio: 1 / 1;
+@media (max-width: 1399px) {
+    .perk-img{
+        width: 70%;
+        margin-top: auto;
     }
-    .about-section .about-img-2{
-        max-width: 250px;
-        max-height: 250px;
-        aspect-ratio: 1 / 1;
+}
+
+@media (max-width: 1199px) {
+    .perk-img{
+        width: 100%;
+        margin-top: auto;
     }
-} */
+}
 
 @media (max-width: 992px) {
+    .service-webdev-div{
+        max-width: 48%;
+    }
+    .job-inner-section{
+        max-width: 49%;
+    }
+    .perk-img{
+        display: none;
+    }
     .portfolio-img-div{
         max-width: 48%;
     }
@@ -86,6 +96,9 @@
 }
 @media (max-width: 600px) {
     .portfolio-img-div{
+        max-width: 100%;
+    }
+    .service-webdev-div{
         max-width: 100%;
     }
     .apply-modal-form{
@@ -194,6 +207,9 @@
     }
     .team-div img{
         height: 160px !important;
+    }
+    .job-inner-section{
+        max-width: 100%;
     }
 }
 

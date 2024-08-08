@@ -78,6 +78,50 @@ a:hover{
     transform: translateX(-50%);
 }
 
+.accordion-item:not(:first-of-type){
+    border-top: 1px solid lightgray;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button{
+    border-radius: 12px;
+}
+
+.accordion-button:not(.collapsed){
+    color:#000000;
+    background-color:#f67b4910;
+    box-shadow: none;
+}
+
+.accordion-body{
+    color: #00000080;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.accordion-button::after{
+    scale: 0.7;
+}
+
+.accordion-button:not(.collapsed)::after{
+    filter: grayscale(1);
+}
+
+.accordion-item:has(.show){
+    border: 1px solid var(--color-light);
+}
+
+.accordion-item{
+    border-radius: 12px !important;
+    border: 1px solid lightgray;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+
 .custom-btn {
     margin-top: 20px;
     border: 1px solid var(--color-dark);
@@ -108,6 +152,10 @@ a:hover{
 }
 
 .apply-modal{
+    display: none;
+}
+
+.apply-detail-modal{
     display: none;
 }
 
@@ -800,9 +848,9 @@ a:hover{
     border: 1px solid var(--color-dark);
 }
 
-.company-feature{
-    max-width: 767px;
-    margin: auto; 
+.company-feature > div{
+    /* max-width: 767px;
+    margin: auto;  */
 }
 
 .feature-heading{
@@ -816,7 +864,7 @@ a:hover{
 .feature-content-text{
     font-size: 14px;
     color: #00000080;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 .project-name{
@@ -845,13 +893,14 @@ a:hover{
 }
 
 .service-webdev-div{
-    max-width: 25%;
+    max-width: 30%;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
     margin-top: 80px;
+    padding-inline: 12px;
 }
 
 .service-webdev-div > img {
@@ -944,9 +993,38 @@ a:hover{
 
 
 
+.perk-img{
+    width: 50%;
+    margin-top: auto;
+}
 
+.policy-div h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
 
+.policy-div p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: #00000080;
+    line-height: 1.4;
+}
 
+.policy-div li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: #00000080;
+}
+
+.policy-head {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
 
 
 .footer-section{
