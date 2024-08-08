@@ -4,6 +4,10 @@
     --color-dark: #35363B;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .row>*{
     padding-left: unset;
     padding-right: unset;
