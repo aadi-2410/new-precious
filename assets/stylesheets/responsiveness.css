@@ -93,6 +93,13 @@
         max-height: 350px;
         aspect-ratio: 1 / 1;
     }
+    .nav-item.dropdown:hover .mobile-dropdown-1{
+        display: none;
+    }
+
+    .nav-item.dropdown:hover .mobile-dropdown-2{
+        display: none;
+    }
 }
 @media (max-width: 600px) {
     .portfolio-img-div{

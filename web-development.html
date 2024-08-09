@@ -36,16 +36,18 @@ new WOW().init();
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mt-4 mt-lg-0 mb-lg-0">
+                <ul class="navbar-nav ms-auto mt-4 mt-lg-0 mb-lg-0 d-flex gap-lg-4 align-items-lg-center">
                     <li class="nav-item">
                         <a class="nav-link secondary-color" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link secondary-color dropdown-toggle active" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
+                        <div class=" d-flex align-items-center gap-1">
+                            <a class="nav-link secondary-color active" href="service.html">
+                                Services 
+                            </a>
+                            <i class="fa-solid fa-caret-down nav-link active" onclick=mobileDropdownFirstOpen();></i>
+                        </div>
+                        <ul class="dropdown-menu mobile-dropdown-1" id="dropdownOne">
                             <li>
                                 <a class="dropdown-item" href="web-development.html">Web Development</a>
                             </li>
@@ -60,13 +62,15 @@ new WOW().init();
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link secondary-color dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Hire Us
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="index.html#contactsection">Hire React Developer</a></li>
-                            <li><a class="dropdown-item" href="index.html#contactsection">Hire Ror Developer</a></li>
+                        <div class="d-flex align-items-center gap-1">
+                            <a class="nav-link secondary-color" href="hire.html">
+                                Hire Us 
+                            </a>
+                            <i class="fa-solid fa-caret-down" onclick=mobileDropdownTwoOpen();></i>
+                        </div>
+                        <ul class="dropdown-menu mobile-dropdown-2" id="dropdownTwo">
+                            <li><a class="dropdown-item" href="hire.html">Hire React Developer</a></li>
+                            <li><a class="dropdown-item" href="hire.html">Hire Ror Developer</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -122,7 +126,7 @@ new WOW().init();
                     <a href="index.html#contactsection" class="text-decoration-none">Get a Quote</a>
                 </button>
             </div>
-            <div class="col-md-6 col-12 order-0 order-md-1">
+            <div class="col-md-6 col-12 order-0 order-md-1 pt-5 pt-md-0">
                 <img class="webdev-img" src="assets/images/webdev-1.png" width="100%" alt="" />
             </div>
         </div>
@@ -397,7 +401,7 @@ new WOW().init();
             </div>
         </div>
         <div class="container text-center py-3 text-white w-full footer-bottom-div">
-            Copyright @2024 | Precious Infosystem Pvt. Ltd.
+            All Right Reserved @2024 | Precious Infosystem Pvt. Ltd.
         </div>
     </footer>
 

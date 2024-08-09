@@ -52,3 +52,25 @@ function cancelDetailFunction() {
 function applyDetailModalOpen() {
     document.getElementById("applydetailmodal").style.display = "block";
 }
+
+function mobileDropdownFirstOpen() {
+    // document.getElementById("dropdownOne").style.display = "block";
+
+    var x = document.getElementById("dropdownOne");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+}
+
+function mobileDropdownTwoOpen() {
+    // document.getElementById("dropdownTwo").style.display = "block";
+
+    var y = document.getElementById("dropdownTwo");
+    if (y.style.display === "none") {
+      y.style.display = "block";
+    } else {
+      y.style.display = "none";
+    }
+}

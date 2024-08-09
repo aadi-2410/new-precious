@@ -129,7 +129,7 @@ a:hover{
 .custom-btn {
     margin-top: 20px;
     border: 1px solid var(--color-dark);
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 10px 15px;
     background-color: var(--color-dark);
     color: white;
@@ -146,13 +146,12 @@ a:hover{
 }
 
 .custom-btn:hover{
-    background-color: white;
-    border: 1px solid var(--color-dark);
-    color: var(--color-dark);
+    background-color: var(--color-light);
+    border: 1px solid var(--color-light);
 }
 
 .custom-btn:hover a{
-    color: var(--color-dark);
+    color: white;
 }
 
 .apply-modal{
@@ -226,11 +225,15 @@ a:hover{
 }
 
 .navbar-section .nav-link{
-    padding-inline: 20px !important;
+    padding-inline: 0px !important;
     font-size: 16px;
 }
 
 .navbar-section .nav-link:hover{
+    color: var(--color-light);
+}
+
+.navbar-section .nav-link:hover + svg{
     color: var(--color-light);
 }
 
@@ -689,6 +692,14 @@ a:hover{
 
 .portfolio-section .nav-item{
     height: 32px;
+}
+
+.nav-item.dropdown:hover{
+    cursor: pointer;
+}
+
+.nav-item.dropdown:hover .dropdown-menu{
+    display: block;
 }
 
 .portfolio-section .nav-tabs .nav-link:focus, 

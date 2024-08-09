@@ -74,6 +74,24 @@
 
 }
 
+.service-page-header{
+    padding: 100px 12px;
+    background-image: url('../images/service-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.hire-page-header{
+    padding: 100px 12px;
+    background-image: url('../images/hire-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
 .webdev-page-header{
     padding: 100px 12px;
     background-image: url('../images/web-dev.png');
@@ -81,7 +99,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
-
 }
 
 .react-header{

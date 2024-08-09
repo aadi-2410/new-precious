@@ -34,30 +34,41 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mt-4 mt-lg-0 mb-lg-0">
+                <ul class="navbar-nav ms-auto mt-4 mt-lg-0 mb-lg-0 d-flex gap-lg-4 align-items-lg-center">
                     <li class="nav-item">
                         <a class="nav-link secondary-color active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link secondary-color dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
-                            <li><a class="dropdown-item" href="web-development.html">App Development</a></li>
-                            <li><a class="dropdown-item" href="web-development.html">Graphic & UI/UX Design</a></li>
-                            <li><a class="dropdown-item" href="web-development.html">Digital Marketing</a></li>
+                                        <li class="nav-item dropdown">
+                        <div class=" d-flex align-items-center gap-1">
+                            <a class="nav-link secondary-color" href="service.html">
+                                Services 
+                            </a>
+                            <i class="fa-solid fa-caret-down" onclick=mobileDropdownFirstOpen();></i>
+                        </div>
+                        <ul class="dropdown-menu mobile-dropdown-1" id="dropdownOne">
+                            <li>
+                                <a class="dropdown-item" href="web-development.html">Web Development</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="web-development.html">App Development</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="web-development.html">Graphic & UI/UX Design</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="web-development.html">Digital Marketing</a>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link secondary-color dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Hire Us
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="index.html#contactsection">Hire React Developer</a></li>
-                            <li><a class="dropdown-item" href="index.html#contactsection">Hire Ror Developer</a></li>
+                        <div class="d-flex align-items-center gap-1">
+                            <a class="nav-link secondary-color" href="hire.html">
+                                Hire Us 
+                            </a>
+                            <i class="fa-solid fa-caret-down" onclick=mobileDropdownTwoOpen();></i>
+                        </div>
+                        <ul class="dropdown-menu mobile-dropdown-2" id="dropdownTwo">
+                            <li><a class="dropdown-item" href="hire.html">Hire React Developer</a></li>
+                            <li><a class="dropdown-item" href="hire.html">Hire Ror Developer</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -160,10 +171,10 @@
             </p>
             <div class="service-div mt-5">
                 <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInLeft">
-                    <img src="assets/images/about.png" alt="" />
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
                     <div class="service-content">
-                        <p>Web Development</p>
-                        <p>
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Web Development</a>
+                        <p style="font-weight: 400;">
                             Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
                             consectetur adipisicing elit. Deserunt, deleniti!
                         </p>
@@ -171,10 +182,10 @@
                     </div>
                 </div>
                 <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInDown">
-                    <img src="assets/images/about.png" alt="" />
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
                     <div class="service-content">
-                        <p>Android Development</p>
-                        <p>
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Android Development</a>
+                        <p style="font-weight: 400;">
                             Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
                             consectetur adipisicing elit. Deserunt, deleniti!
                         </p>
@@ -182,10 +193,10 @@
                     </div>
                 </div>
                 <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInRight">
-                    <img src="assets/images/about.png" alt="" />
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
                     <div class="service-content">
-                        <p>Cloud Services</p>
-                        <p>
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Cloud Services</a>
+                        <p style="font-weight: 400;">
                             Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
                             consectetur adipisicing elit. Deserunt, deleniti!
                         </p>
@@ -193,10 +204,10 @@
                     </div>
                 </div>
                 <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInLeft">
-                    <img src="assets/images/about.png" alt="" />
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
                     <div class="service-content">
-                        <p>UI/UX Design</p>
-                        <p>
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">UI/UX Design</a>
+                        <p style="font-weight: 400;">
                             Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
                             consectetur adipisicing elit. Deserunt, deleniti!
                         </p>
@@ -204,10 +215,10 @@
                     </div>
                 </div>
                 <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInUp">
-                    <img src="assets/images/about.png" alt="" />
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
                     <div class="service-content">
-                        <p>It Consulting</p>
-                        <p>
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">It Consulting</a>
+                        <p style="font-weight: 400;">
                             Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
                             consectetur adipisicing elit. Deserunt, deleniti!
                         </p>
@@ -215,10 +226,10 @@
                     </div>
                 </div>
                 <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInRight">
-                    <img src="assets/images/about.png" alt="" />
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
                     <div class="service-content">
-                        <p>Digital Marketing</p>
-                        <p>
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Digital Marketing</a>
+                        <p style="font-weight: 400;">
                             Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
                             consectetur adipisicing elit. Deserunt, deleniti!
                         </p>
@@ -231,7 +242,7 @@
     <section class="technology-section">
         <div class="technology-inner-div position-relative">
             <img src="assets/images/technology-bg.png"
-                class="position-absolute top-0 start-0 end-0 bottom-0 w-100 h-100" alt="" />
+                class="position-absolute top-0 start-0 end-0 bottom-0 w-100 h-100" style="object-fit: cover;" alt="" />
             <div class="container">
                 <h5 class="heading-text text-white mb-3 text-center wow animated zoomIn">
                     Technology <span class="primary-color">We Use</span>
@@ -242,74 +253,74 @@
                 <div class="d-flex flex-sm-row flex-column w-100 gap-5 gap-sm-3">
                     <div class="owl-carousel owl-carousel-technology owl-theme d-flex wow animated slideInUp">
                         <div class="item position-relative">
-                            <a href="">
+                            <a href="react.html">
                                 <img src="assets/images/reactjs.png" class="technology-icon" alt="">
                             </a>
-                            <a href="" class="d-block text-decoration-none text-dark fs-5 fw-bold">
+                            <a href="react.html" class="d-block text-decoration-none text-dark fs-5 fw-bold">
                                 React Js
                             </a>
                         </div>
                         <div class="item position-relative">
-                            <a href="">
+                            <a href="react.html">
                                 <img src="assets/images/nodejs.png" class="technology-icon" alt="">
                             </a>
-                            <a href="" class="d-block text-decoration-none text-dark fs-5 fw-bold">
+                            <a href="react.html" class="d-block text-decoration-none text-dark fs-5 fw-bold">
                                 Node Js
                             </a>
                         </div>
                         <div class="item position-relative">
-                            <a href="">
+                            <a href="react.html">
                                 <img src="assets/images/ror.png" class="technology-icon" alt="">
                             </a>
-                            <a href="" class="d-block text-decoration-none text-dark fs-5 fw-bold">
+                            <a href="react.html" class="d-block text-decoration-none text-dark fs-5 fw-bold">
                                 ROR
                             </a>
                         </div>
                         <div class="item position-relative">
-                            <a href="">
+                            <a href="react.html">
                                 <img src="assets/images/python.png" class="technology-icon" alt="">
                             </a>
-                            <a href="" class="d-block text-decoration-none text-dark fs-5 fw-bold">
+                            <a href="react.html" class="d-block text-decoration-none text-dark fs-5 fw-bold">
                                 Python
                             </a>
                         </div>
                         <div class="item position-relative">
-                            <a href="">
+                            <a href="react.html">
                                 <img src="assets/images/php.png" class="technology-icon" alt="">
                             </a>
-                            <a href="" class="d-block text-decoration-none text-dark fs-5 fw-bold">
+                            <a href="react.html" class="d-block text-decoration-none text-dark fs-5 fw-bold">
                                 PHP
                             </a>
                         </div>
                         <div class="item position-relative">
-                            <a href="">
+                            <a href="react.html">
                                 <img src="assets/images/java.png" class="technology-icon" alt="">
                             </a>
-                            <a href="" class="d-block text-decoration-none text-dark fs-5 fw-bold">
+                            <a href="react.html" class="d-block text-decoration-none text-dark fs-5 fw-bold">
                                 Java
                             </a>
                         </div>
                         <div class="item position-relative">
-                            <a href="">
+                            <a href="react.html">
                                 <img src="assets/images/android.png" class="technology-icon" alt="">
                             </a>
-                            <a href="" class="d-block text-decoration-none text-dark fs-5 fw-bold">
+                            <a href="react.html" class="d-block text-decoration-none text-dark fs-5 fw-bold">
                                 Android
                             </a>
                         </div>
                         <div class="item position-relative">
-                            <a href="">
+                            <a href="react.html">
                                 <img src="assets/images/figma.png" class="technology-icon" alt="">
                             </a>
-                            <a href="" class="d-block text-decoration-none text-dark fs-5 fw-bold">
+                            <a href="react.html" class="d-block text-decoration-none text-dark fs-5 fw-bold">
                                 Figma
                             </a>
                         </div>
                         <div class="item position-relative">
-                            <a href="">
+                            <a href="react.html">
                                 <img src="assets/images/azure.png" class="technology-icon" alt="">
                             </a>
-                            <a href="" class="d-block text-decoration-none text-dark fs-5 fw-bold">
+                            <a href="react.html" class="d-block text-decoration-none text-dark fs-5 fw-bold">
                                 Azure
                             </a>
                         </div>
@@ -573,7 +584,7 @@
             </div>
         </div>
         <div class="container text-center py-3 text-white w-full footer-bottom-div">
-            Copyright @2024 | Precious Infosystem Pvt. Ltd.
+            All Right Reserved @2024 | Precious Infosystem Pvt. Ltd.
         </div>
     </footer>
 

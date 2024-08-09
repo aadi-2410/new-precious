@@ -40,12 +40,12 @@ new WOW().init();
                     <li class="nav-item">
                         <a class="nav-link secondary-color" aria-current="page" href="index.html">Home</a>
                     </li>
-                                        <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                         <div class=" d-flex align-items-center gap-1">
-                            <a class="nav-link secondary-color" href="service.html">
+                            <a class="nav-link secondary-color active" href="service.html">
                                 Services 
                             </a>
-                            <i class="fa-solid fa-caret-down" onclick=mobileDropdownFirstOpen();></i>
+                            <i class="fa-solid fa-caret-down nav-link active" onclick=mobileDropdownFirstOpen();></i>
                         </div>
                         <ul class="dropdown-menu mobile-dropdown-1" id="dropdownOne">
                             <li>
@@ -86,132 +86,248 @@ new WOW().init();
             </div>
         </div>
     </nav>
-    <header class="header-section d-flex flex-column justify-content-center align-items-center position-relative career-page-header">
+    <header
+        class="header-section d-flex justify-content-center align-items-center position-relative service-page-header">
         <div class="overlay"></div>
-        <p class="career-header-content">FAQ</p>
+        <p class="career-header-content">Our Services</p>
     </header>
+    <section class="container position-relative mx-auto row d-flex align-items-center about-section mb-5">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 col-12 pe-md-3">
+                <div class="project-detail mt-3">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Saepe provident autem et tempore ipsum accusantium unde
+                    mollitia quo, similique soluta excepturi sed voluptatem enim laborum
+                    recusandae dolore a deserunt quaerat qui delectus esse possimus
+                    explicabo commodi vel? Praesentium quae, odio unde esse ea
+                    reprehenderit a corporis possimus qui dicta? Ab?
+                </div>
+                <div class="project-detail mt-3">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+                    provident autem et tempore ipsum accusantium unde mollitia quo,
+                    similique soluta excepturi sed voluptatem enim laborum recusandae
+                    dolore a deserunt quaerat qui delectus esse possimus explicabo
+                    commodi vel? Praesentium quae, odio unde esse ea reprehenderit a
+                    corporis possimus qui dicta? Ab?
+                </div>
+                <div class="project-detail mt-3">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+                    provident autem et tempore ipsum accusantium unde mollitia quo,
+                    similique soluta excepturi sed voluptatem enim laborum recusandae
+                    dolore a deserunt quaerat qui delectus esse possimus explicabo
+                    commodi vel? Praesentium quae, odio unde esse ea reprehenderit a
+                    corporis possimus qui dicta? Ab?
+                </div>
+                <button class="custom-btn">
+                    <a href="index.html#contactsection" class="text-decoration-none">Get a Quote</a>
+                </button>
+            </div>
+            <div class="col-md-6 col-12 order-0 order-md-1 text-center pt-5 pt-md-0">
+                <img class="webdev-img" src="assets/images/service-content.png" style="max-width: 450px; border-radius: 12px;" width="100%" alt="" />
+            </div>
+        </div>
+    </section>
 
-    <section class="faq-section">
-        <div class="container my-5 pt-5">
-            <h2 class="text-center mb-5 heading-text">Frequently Asked <span class="primary-color">Questions</span></h2>
+    <section class="service-section position-relative" style="background-color:rgba(250, 235, 215, 0.607);">
+        <div class="container mx-auto mb-3 mb-md-5 pt-5 pb-5">
+            <p class="heading-text text-center mt-3 mt-md-5 mb-4 wow animated zoomIn">
+                OUR <span class="primary-color">SERVICES</span>
+            </p>
+            <p class="text-center my-4 wow animated zoomIn" style="max-width: 750px; margin: auto; line-height: 1.4; font-size: 14px;">
+                Our services are designed to empower your business with innovative software solutions. From custom software development to comprehensive IT consulting, we provide a full spectrum of services to meet your unique needs. Explore how our expertise can drive your success—partner with us for unparalleled technology solutions.
+            </p>
+            <div class="service-div mt-5">
+                <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInLeft">
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Web Development</a>
+                        <p style="font-weight: 400;">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="web-development.html">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInDown">
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Android Development</a>
+                        <p style="font-weight: 400;">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="web-development.html">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInRight">
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Cloud Services</a>
+                        <p style="font-weight: 400;">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="web-development.html">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInLeft">
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">UI/UX Design</a>
+                        <p style="font-weight: 400;">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="web-development.html">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInUp">
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">It Consulting</a>
+                        <p style="font-weight: 400;">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="web-development.html">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 gap-sm-2 bg-white wow animated slideInRight">
+                    <a href="web-development.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <a href="web-development.html" class="text-decoration-none" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Digital Marketing</a>
+                        <p style="font-weight: 400;">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="web-development.html">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section mt-5 pt-3">
+        <div class="container my-5">
+            <h2 class="text-center mb-4 heading-text mb-5">Services <span class="primary-color">FAQ</span></h2>
             <div class="accordion" id="faqAccordion">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What types of software development services do you offer?
+                            Why is web development important for my business?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            We offer a wide range of software development services, including custom software development, mobile app development, web application development, enterprise software solutions, and more. Our team is equipped to handle projects of any size and complexity.
+                            Web development is crucial for establishing a strong online presence, reaching a wider audience, and providing a platform for customers to interact with your brand. A well-designed website enhances credibility, improves customer engagement, and drives business growth.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            How do you ensure the quality of the software you develop?
+                            What types of web development services do you offer?
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            We follow a rigorous quality assurance process that includes thorough testing, code reviews, and adherence to best practices in software development. Our team uses automated and manual testing methods to ensure the software meets all functional and non-functional requirements.
+                            We offer a comprehensive range of web development services, including responsive web design, e-commerce solutions, custom web applications, content management systems (CMS), and ongoing maintenance and support. Our team tailors each service to meet your specific needs.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What is your development process like?
+                            How long does it take to develop a website?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Our development process typically involves several stages: requirements gathering, design, development, testing, deployment, and maintenance. We use agile methodologies to ensure flexibility and collaboration throughout the project, allowing us to adapt to changes and deliver high-quality results.
+                            The timeline for developing a website depends on the project's complexity, features, and functionality. A basic website may take a few weeks, while a more complex site with custom features can take several months. We provide a detailed timeline after assessing your requirements.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Can you provide ongoing support and maintenance for my software?
+                            What technologies do you use for web development?
                         </button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Yes, we offer ongoing support and maintenance services to ensure your software remains up-to-date and performs optimally. Our team is available to address any issues, implement updates, and provide enhancements as needed.
+                            Our developers are proficient in various technologies, including HTML, CSS, JavaScript, ReactJS, Angular, Node.js, PHP, Python, and more. We choose the best technology stack based on your project's requirements to ensure optimal performance and scalability.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            How do you handle project timelines and deadlines?
+                            Can you help with website redesign and updates?
                         </button>
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            We work closely with our clients to establish realistic project timelines and deadlines. Our agile approach allows us to deliver incremental progress and adapt to any changes, ensuring that we meet our commitments without compromising on quality.
+                            Yes, we offer website redesign and update services to improve the look, functionality, and performance of your existing site. Whether you need a complete overhaul or minor updates, our team can help you achieve your goals.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingSix">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            What technologies do you specialize in?
+                            Do you provide support and maintenance after the website is live?
                         </button>
                     </h2>
                     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Our team is proficient in a wide range of technologies, including JavaScript (React, Angular, Vue), Python, Java, .NET, Ruby on Rails, PHP, and mobile technologies like Swift and Kotlin. We choose the best technology stack based on your project's requirements to ensure optimal performance and scalability.
+                            Absolutely! We offer ongoing support and maintenance services to ensure your website runs smoothly and stays up-to-date with the latest security patches and technology advancements. Our team is always available to address any issues and make necessary updates.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingSeven">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                            How much does custom software development cost?
+                            How much does web development cost?
                         </button>
                     </h2>
                     <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            The cost of custom software development varies depending on the project's scope, complexity, and specific requirements. We provide a detailed quote after understanding your needs and goals. Our aim is to deliver high-quality solutions that fit within your budget.
+                            The cost of web development varies based on the project's scope, complexity, and specific requirements. We provide a custom quote after understanding your needs and goals. Our aim is to deliver high-quality solutions that fit within your budget.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingEight">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                            Do you offer cloud-based solutions?
+                            Will my website be mobile-friendly?
                         </button>
                     </h2>
                     <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Yes, we offer cloud-based solutions and can help you migrate your existing applications to the cloud. Our team is experienced in working with various cloud platforms, including AWS, Azure, and Google Cloud, to provide scalable and reliable solutions.
+                            Yes, all our websites are designed to be fully responsive and mobile-friendly. We ensure that your site looks great and functions seamlessly on all devices, including smartphones, tablets, and desktops.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingNine">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                            How do you ensure the security of the software you develop?
+                            Can you integrate third-party services and APIs?
                         </button>
                     </h2>
                     <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Security is a top priority for us. We implement industry best practices for secure coding, conduct regular security audits, and use advanced security tools to protect your software from vulnerabilities and threats. We also provide ongoing monitoring and support to maintain security.
+                            Yes, we can integrate various third-party services and APIs into your website to enhance its functionality. Whether it's payment gateways, social media platforms, or other tools, we ensure seamless integration to meet your business needs.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTen">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                            How do I get started with a project?
+                            How do you ensure the security of my website?
                         </button>
                     </h2>
                     <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Getting started is easy! Contact us through our website or give us a call. We'll discuss your project requirements, goals, and timelines to provide a detailed proposal and plan for moving forward. Our team is here to help you every step of the way.
+                            We implement robust security measures, including SSL certificates, secure coding practices, regular security audits, and timely updates, to protect your website from potential threats. Your site's security is our top priority.
                         </div>
                     </div>
                 </div>
@@ -266,13 +382,16 @@ new WOW().init();
             <div class="col-lg-2 col-md-4 footer-links">
                 <p>Contact Us</p>
                 <ul>
-                    <li class="text-white d-flex gap-2 mb-3" style="line-height: 1.3; font-size: 14px;">
-                        Address: 
-                            142-A, 3rd floor, New Electronic Complex, Pardesipura,
-                            Indore, MP (452010)
+                    <li class="text-white d-flex gap-2 mb-3" style="line-height: 1.3; font-size: 14px">
+                        Address: 142-A, 3rd floor, New Electronic Complex, Pardesipura,
+                        Indore, MP (452010)
                     </li>
-                    <li class="text-white d-flex gap-2 flex-wrap">Email: <a href=""> contact@preciousinfosystem.com </a></li>
-                    <li class="text-white d-flex gap-2">Mobile No: <a href=""> +91-9630449441 </a></li>
+                    <li class="text-white d-flex gap-2 flex-wrap">
+                        Email: <a href=""> contact@preciousinfosystem.com </a>
+                    </li>
+                    <li class="text-white d-flex gap-2">
+                        Mobile No: <a href=""> +91-9630449441 </a>
+                    </li>
                 </ul>
             </div>
         </div>

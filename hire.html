@@ -40,7 +40,7 @@ new WOW().init();
                     <li class="nav-item">
                         <a class="nav-link secondary-color" aria-current="page" href="index.html">Home</a>
                     </li>
-                                        <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                         <div class=" d-flex align-items-center gap-1">
                             <a class="nav-link secondary-color" href="service.html">
                                 Services 
@@ -63,10 +63,10 @@ new WOW().init();
                     </li>
                     <li class="nav-item dropdown">
                         <div class="d-flex align-items-center gap-1">
-                            <a class="nav-link secondary-color" href="hire.html">
+                            <a class="nav-link secondary-color active" href="hire.html">
                                 Hire Us 
                             </a>
-                            <i class="fa-solid fa-caret-down" onclick=mobileDropdownTwoOpen();></i>
+                            <i class="fa-solid fa-caret-down nav-link active" onclick=mobileDropdownTwoOpen();></i>
                         </div>
                         <ul class="dropdown-menu mobile-dropdown-2" id="dropdownTwo">
                             <li><a class="dropdown-item" href="hire.html">Hire React Developer</a></li>
@@ -86,20 +86,14 @@ new WOW().init();
             </div>
         </div>
     </nav>
-    <header class="header-section d-flex justify-content-center align-items-center position-relative react-header">
+    <header
+        class="header-section d-flex justify-content-center align-items-center position-relative hire-page-header">
         <div class="overlay"></div>
-        <p class="career-header-content">React Js</p>
+        <p class="career-header-content">Hire Us</p>
     </header>
-    <div class="position-relative">
-        <img src="assets/images/dot-shape-right-top.png" class="position-absolute top-0 end-0"
-            style="z-index: -1; opacity: 0.4" alt="" />
-    </div>
-    <section class="container mx-auto row d-flex align-items-center about-section mb-5">
-        <div class="row d-flex align-items-start mt-5">
-            <div class="pe-md-3 text-center col-md-6 col-12">
-                <p class="heading-text text-center mb-5">
-                    What is <span class="primary-color">ReactJS ?</span>
-                </p>
+    <section class="container position-relative mx-auto row d-flex align-items-center about-section">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 col-12 pe-md-3">
                 <div class="project-detail mt-3">
                     Lorem ipsum, dolor sit amet consectetur adipisicing
                     elit. Saepe provident autem et tempore ipsum accusantium unde
@@ -116,60 +110,92 @@ new WOW().init();
                     commodi vel? Praesentium quae, odio unde esse ea reprehenderit a
                     corporis possimus qui dicta? Ab?
                 </div>
+                <div class="project-detail mt-3">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+                    provident autem et tempore ipsum accusantium unde mollitia quo,
+                    similique soluta excepturi sed voluptatem enim laborum recusandae
+                    dolore a deserunt quaerat qui delectus esse possimus explicabo
+                    commodi vel? Praesentium quae, odio unde esse ea reprehenderit a
+                    corporis possimus qui dicta? Ab?
+                </div>
+                <button class="custom-btn">
+                    <a href="index.html#contactsection" class="text-decoration-none">Our Service</a>
+                </button>
             </div>
-            <div class="order-0 order-md-1 col-md-6 col-12 pe-md-3 text-center">
-                <p class="heading-text text-center mb-5">
-                    Benefits of <span class="primary-color">ReactJS</span>
-                </p>
-                <img class="tech-img" src="assets/images/react-benefits.png" style="border-radius: 12px; object-fit: cover; max-width: 500px;" width="100%" alt="" />
-            </div>
-        </div>
-    </section>
-
-    <section class="mt-3 mt-md-5 pt-5 pb-5 tech-detail-section">
-        <div class="heading-text container mx-auto text-center text-white pt-5" style="line-height: 1.3;">
-            Why Choose <span class="primary-color">Precious </span>Infosystem for <br> ReactJS Development?
-        </div>
-        <div class="tech-detail-div container mx-auto d-flex flex-wrap mb-5" style="max-width: 992px;">
-            <div class="tech-webdev-div">
-                <img src="assets/images/optimizing.png" alt="">
-                <p class="tech-detail-heading">Optimized and quick reacting applications</p>
-                <p class="tech-detail-content">Front-end web development helps in creating optimized and well-structured web applications. The latest technology used by Front-End developers helps them to build quick reacting features and structure that empowers the app to load and work fast.</p>
-            </div>
-            <div class="tech-webdev-div">
-                <img src="assets/images/easylearn.png" alt="">
-                <p class="tech-detail-heading">Easy to learn and use Scale Technologies</p>
-                <p class="tech-detail-content">Front-end web development helps in creating optimized and well-structured web applications. The latest technology used by Front-End developers helps them to build quick reacting features and structure that empowers the app to load and work fast.</p>
-            </div>
-            <div class="tech-webdev-div">
-                <img src="assets/images/delivery.png" alt="">
-                <p class="tech-detail-heading">Speedy development and On-Time Deliverance</p>
-                <p class="tech-detail-content">Front-end web development helps in creating optimized and well-structured web applications. The latest technology used by Front-End developers helps them to build quick reacting features and structure that empowers the app to load and work fast.</p>
-            </div>
-            <div class="tech-webdev-div">
-                <img src="assets/images/visitor.png" alt="">
-                <p class="tech-detail-heading">Visitors retention</p>
-                <p class="tech-detail-content">Front-end web development helps in creating optimized and well-structured web applications. The latest technology used by Front-End developers helps them to build quick reacting features and structure that empowers the app to load and work fast.</p>
-            </div>
-            <div class="tech-webdev-div">
-                <img src="assets/images/layout.png" alt="">
-                <p class="tech-detail-heading">Powerful Feature and Layouts</p>
-                <p class="tech-detail-content">Front-end web development helps in creating optimized and well-structured web applications. The latest technology used by Front-End developers helps them to build quick reacting features and structure that empowers the app to load and work fast.</p>
-            </div>
-            <div class="tech-webdev-div">
-                <img src="assets/images/realtime.png" alt="">
-                <p class="tech-detail-heading">Offers Real-Time Programming</p>
-                <p class="tech-detail-content">Front-end web development helps in creating optimized and well-structured web applications. The latest technology used by Front-End developers helps them to build quick reacting features and structure that empowers the app to load and work fast.</p>
+            <div class="col-md-6 col-12 order-0 order-md-1 text-center pt-5 pt-md-0">
+                <img class="webdev-img" src="assets/images/service-content.png" style="max-width: 450px; border-radius: 12px;" width="100%" alt="" />
             </div>
         </div>
     </section>
 
-    <section class="quality-section position-relative mb-5 pb-5">
-        <img src="assets/images/icon-lines-6.png" class="quality-bg-img" alt="">
+    <section class="contact-section" id="contactsection">
         <div class="container mx-auto">
-            <div class="fs-3 market-text">Hire our ReactJS Developer</div>
-            <div class="market-content">Looking for a skilled ReactJS developer to bring your project to life? At Precious Infosystem, our dedicated ReactJS developers are ready to transform your ideas into high-performing, scalable web applications.</div>
-            <button class="custom-btn"><a href="index.html#contactsection" class="text-decoration-none">Hire Us</a></button>
+            <p class="heading-text text-center mb-4 wow animated zoomIn">
+                Connect <span class="primary-color">with us</span>
+            </p>
+            <p class="text-center my-3 wow animated zoomIn" style="max-width: 750px; margin: auto; line-height: 1.4; font-size: 14px;">
+                Connect with us to transform your ideas into reality with cutting-edge software solutions. Let's collaborate and innovate together, creating a seamless digital experience tailored to your needs. Your journey to efficient, reliable technology starts here—reach out to us today!
+            </p>
+            <div class="d-flex align-items-center gap-3 mt-5 consultant-div bg-light">
+                <div class="d-none d-sm-block wow animated slideInLeft">
+                    <img class="consultant-img" src="assets/images/consultant.png" alt="">
+                </div>
+                <div class="p-3 wow animated slideInRight">
+                    <form action="#!">
+                        <div class="d-flex flex-column gap-3">
+                          <div class="">
+                            <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
+                          </div>
+                          <div class="d-flex flex-md-row flex-column gap-3">
+                            <div class="" style="flex: 1;">
+                                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                <div class="input-group">
+                                  <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg>
+                                  </span>
+                                  <input type="email" class="form-control" id="email" name="email" value="" required>
+                                </div>
+                              </div>
+                            <div class="" style="flex: 1;">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                </svg>
+                                </span>
+                                <input type="tel" class="form-control" id="phone" name="phone" value="">
+                            </div>
+                            </div>
+                          </div>
+                          <div class="">
+                            <label for="fullname" class="form-label">Subject <span class="text-danger">*</span></label>
+                            <select class="form-select" id="exampleSelect">
+                                <option selected disabled>Select..</option>
+                                <option class="spacer-option" disabled>──────────</option>
+                                <option value="1">Web Development</option>
+                                <option value="2">App Development</option>
+                                <option value="3">Graphic & UI/UX Design</option>
+                                <option value="3">Digital Marketing</option>
+                                <option value="3">IT Consulting</option>
+                            </select>
+                          </div>
+                          <div class="">
+                            <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                          </div>
+                          <div class="">
+                            <div class="d-grid">
+                              <button class="custom-btn text-center btn-md" type="submit">Submit</button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+            </div>
         </div>
     </section>
 
