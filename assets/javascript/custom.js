@@ -54,8 +54,6 @@ function applyDetailModalOpen() {
 }
 
 function mobileDropdownFirstOpen() {
-    // document.getElementById("dropdownOne").style.display = "block";
-
     var x = document.getElementById("dropdownOne");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -65,8 +63,6 @@ function mobileDropdownFirstOpen() {
 }
 
 function mobileDropdownTwoOpen() {
-    // document.getElementById("dropdownTwo").style.display = "block";
-
     var y = document.getElementById("dropdownTwo");
     if (y.style.display === "none") {
       y.style.display = "block";
