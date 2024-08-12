@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/stylesheets/path.css" />
     <link rel="stylesheet" href="assets/stylesheets/responsiveness.css" />
     <link rel="shortcut icon" href="assets/images/logo/preciousLogo01.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/stylesheets/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,9 +20,6 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script>
-new WOW().init();
-</script>
 </head>
 
 <body>
@@ -88,12 +86,12 @@ new WOW().init();
     </nav>
     <header
         class="header-section d-flex justify-content-center align-items-center position-relative hire-page-header">
-        <div class="overlay"></div>
-        <p class="career-header-content">Hire Us</p>
+        <div class="overlay wow animated zoomIn"></div>
+        <p class="career-header-content wow animated zoomIn">Hire Us</p>
     </header>
     <section class="container position-relative mx-auto row d-flex align-items-center about-section">
         <div class="row d-flex align-items-center">
-            <div class="col-md-6 col-12 pe-md-3">
+            <div class="col-md-6 col-12 pe-md-3 wow animated slideInLeft">
                 <div class="project-detail mt-3">
                     Lorem ipsum, dolor sit amet consectetur adipisicing
                     elit. Saepe provident autem et tempore ipsum accusantium unde
@@ -122,7 +120,7 @@ new WOW().init();
                     <a href="index.html#contactsection" class="text-decoration-none">Our Service</a>
                 </button>
             </div>
-            <div class="col-md-6 col-12 order-0 order-md-1 text-center pt-5 pt-md-0">
+            <div class="col-md-6 col-12 order-0 order-md-1 text-center pt-5 pt-md-0 wow animated slideInRight">
                 <img class="webdev-img" src="assets/images/service-content.png" style="max-width: 450px; border-radius: 12px;" width="100%" alt="" />
             </div>
         </div>
@@ -131,7 +129,7 @@ new WOW().init();
     <section class="contact-section" id="contactsection">
         <div class="container mx-auto">
             <p class="heading-text text-center mb-4 wow animated zoomIn">
-                Connect <span class="primary-color">with us</span>
+                Hire <span class="primary-color">Us</span>
             </p>
             <p class="text-center my-3 wow animated zoomIn" style="max-width: 750px; margin: auto; line-height: 1.4; font-size: 14px;">
                 Connect with us to transform your ideas into reality with cutting-edge software solutions. Let's collaborate and innovate together, creating a seamless digital experience tailored to your needs. Your journey to efficient, reliable technology starts here—reach out to us today!
@@ -199,7 +197,7 @@ new WOW().init();
         </div>
     </section>
 
-    <footer class="footer-section position-relative">
+    <footer class="footer-section position-relative wow animated slideInUp">
         <div class="overlay"></div>
         <div class="container row mx-auto inner-footer-div">
             <div class="col-lg-3 col-md-12 me-lg-4">
@@ -264,8 +262,11 @@ new WOW().init();
         </div>
     </footer>
 
+    <script src="assets/javascript/wow.js"></script>
+    <script>
+    new WOW().init();
+    </script>
     <script src="assets/javascript/custom.js"></script>
-<script src="assets/javascript/wow.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
         integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
