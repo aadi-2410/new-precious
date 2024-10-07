@@ -51,7 +51,24 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
+}
 
+.blog-page-header{
+    padding: 100px 12px;
+    background-image: url('../images/blogsbg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.blog-detail-page-header{
+    padding: 100px 12px;
+    background-image: url('../images/blogdeat.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 
 .career-page-header{

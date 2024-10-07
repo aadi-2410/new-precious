@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Precious Infosystem</title>
+    <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <link rel="stylesheet" href="assets/stylesheets/path.css" />
+    <link rel="stylesheet" href="assets/stylesheets/responsiveness.css" />
+    <link rel="shortcut icon" href="assets/images/logo/preciousLogo01.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/stylesheets/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar-section navbar navbar-expand-lg position-sticky bg-white top-0 w-100 py-2">
+        <div class="container">
+            <a class="navbar-brand me-0 py-0" href="#">
+                <img src="assets/images/logo/precious-landscape-logo.png" class="logo" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mt-4 mt-lg-0 mb-lg-0 d-flex gap-lg-4 align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link secondary-color" aria-current="page" href="#">Home</a>
+                    </li>
+                                        <li class="nav-item dropdown">
+                        <div class=" d-flex align-items-center gap-1">
+                            <a class="nav-link secondary-color" href="service.html">
+                                Services 
+                            </a>
+                            <i class="fa-solid fa-caret-down" onclick=mobileDropdownFirstOpen();></i>
+                        </div>
+                        <ul class="dropdown-menu mobile-dropdown-1" id="dropdownOne">
+                            <li>
+                                <a class="dropdown-item" href="web-development.html">Web Development</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="web-development.html">App Development</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="web-development.html">Graphic & UI/UX Design</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="web-development.html">Digital Marketing</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="d-flex align-items-center gap-1">
+                            <a class="nav-link secondary-color" href="hire.html">
+                                Hire Us 
+                            </a>
+                            <i class="fa-solid fa-caret-down" onclick=mobileDropdownTwoOpen();></i>
+                        </div>
+                        <ul class="dropdown-menu mobile-dropdown-2" id="dropdownTwo">
+                            <li><a class="dropdown-item" href="hire.html">Hire React Developer</a></li>
+                            <li><a class="dropdown-item" href="hire.html">Hire Ror Developer</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link secondary-color" href="portfolio.html">Portfolio</a>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link secondary-color" href="career.html">Careers</a>
+                    </li>
+<li class="nav-item">
+                        <a class="nav-link secondary-color active" href="blog.html">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link secondary-color" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header-section d-flex justify-content-center align-items-center position-relative blog-page-header">
+        <div class="overlay wow animated zoomIn"></div>
+        <p class="about-header-content wow animated zoomIn">Our Blogs</p>
+    </header>
+    <section class="service-section position-relative" id="servicepart">
+        <img src="assets/images/dot-shape-right-top.png" class="position-absolute top-0 end-0"
+            style="z-index: -1; opacity: 0.4" alt="" />
+        <div class="container mx-auto mb-3 mb-md-5 pt-5 pb-5">
+            <p class="heading-text text-center mt-3 mt-md-5 mb-4 wow animated zoomIn">
+                Our Latest <span class="primary-color">Insights</span> and <span class="primary-color">Industry</span> Trends
+            </p>
+            <p class="text-center my-3 wow animated zoomIn" style="max-width: 750px; margin: auto; line-height: 1.4; font-size: 14px;">
+                At Precious Infosystem, we strive to provide valuable insights on cutting-edge technologies, business strategies, and industry innovations. Our blog is a hub for informative articles, case studies, and tips designed to help you stay ahead of the curve. Whether you're looking for expert opinions on web development, app creation, digital marketing, or UI/UX design, our blog delivers it all. Explore our collection and empower your digital transformation journey!            </p>
+            <div class="service-div blog-service-div mt-5">
+                <div class="d-flex gap-1 flex-column gap-sm-2 bg-white wow animated slideInLeft">
+                    <a href="blog-detail-page.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <div class="blog-time">
+                            02 Aug 2024, By Admin
+                        </div>
+                        <a href="blog-detail-page.html" class="text-decoration-none mb-2" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Web Development</a>
+                        <p style="font-weight: 400;" class="blog-content">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="blog-detail-page.html" style="" class="mt-3">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 flex-column gap-sm-2 bg-white wow animated slideInDown">
+                    <a href="blog-detail-page.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <div class="blog-time">
+                            02 Aug 2024, By Admin
+                        </div>
+                        <a href="blog-detail-page.html" class="text-decoration-none mb-2" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Android Development</a>
+                        <p style="font-weight: 400;" class="blog-content">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="blog-detail-page.html" style="" class="mt-3">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 flex-column gap-sm-2 bg-white wow animated slideInRight">
+                    <a href="blog-detail-page.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <div class="blog-time">
+                            02 Aug 2024, By Admin
+                        </div>
+                        <a href="blog-detail-page.html" class="text-decoration-none mb-2" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Cloud Services</a>
+                        <p style="font-weight: 400;" class="blog-content">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="blog-detail-page.html" style="" class="mt-3">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 flex-column gap-sm-2 bg-white wow animated slideInLeft">
+                    <a href="blog-detail-page.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <div class="blog-time">
+                            02 Aug 2024, By Admin
+                        </div>
+                        <a href="blog-detail-page.html" class="text-decoration-none mb-2" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">UI/UX Design</a>
+                        <p style="font-weight: 400;" class="blog-content">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="blog-detail-page.html" style="" class="mt-3">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 flex-column gap-sm-2 bg-white wow animated slideInUp">
+                    <a href="blog-detail-page.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <div class="blog-time">
+                            02 Aug 2024, By Admin
+                        </div>
+                        <a href="blog-detail-page.html" class="text-decoration-none mb-2" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">It Consulting</a>
+                        <p style="font-weight: 400;" class="blog-content">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="blog-detail-page.html" style="" class="mt-3">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 flex-column gap-sm-2 bg-white wow animated slideInRight">
+                    <a href="blog-detail-page.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <div class="blog-time">
+                            02 Aug 2024, By Admin
+                        </div>
+                        <a href="blog-detail-page.html" class="text-decoration-none mb-2" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Digital Marketing</a>
+                        <p style="font-weight: 400;" class="blog-content">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="blog-detail-page.html" style="" class="mt-3">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 flex-column gap-sm-2 bg-white wow animated slideInLeft">
+                    <a href="blog-detail-page.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <div class="blog-time">
+                            02 Aug 2024, By Admin
+                        </div>
+                        <a href="blog-detail-page.html" class="text-decoration-none mb-2" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">UI/UX Design</a>
+                        <p style="font-weight: 400;" class="blog-content">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="blog-detail-page.html" style="" class="mt-3">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 flex-column gap-sm-2 bg-white wow animated slideInUp">
+                    <a href="blog-detail-page.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <div class="blog-time">
+                            02 Aug 2024, By Admin
+                        </div>
+                        <a href="blog-detail-page.html" class="text-decoration-none mb-2" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">It Consulting</a>
+                        <p style="font-weight: 400;" class="blog-content">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="blog-detail-page.html" style="" class="mt-3">read more</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-1 flex-column gap-sm-2 bg-white wow animated slideInRight">
+                    <a href="blog-detail-page.html"><img src="assets/images/about.png" alt="" height="100%" /></a>
+                    <div class="service-content">
+                        <div class="blog-time">
+                            02 Aug 2024, By Admin
+                        </div>
+                        <a href="blog-detail-page.html" class="text-decoration-none mb-2" style="font-size: 18px; font-weight: 600; color: black; text-align: start;">Digital Marketing</a>
+                        <p style="font-weight: 400;" class="blog-content">
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Deserunt, deleniti!
+                        </p>
+                        <a href="blog-detail-page.html" style="" class="mt-3">read more</a>
+                    </div>
+                </div>
+            </div>
+            <nav aria-label="Page navigation" class="d-flex justify-content-center mt-5 wow animated slideInUp">
+                <ul class="pagination mb-0">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Pre</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">.</a></li>
+                    <li class="page-item"><a class="page-link" href="#">.</a></li>
+                    <li class="page-item"><a class="page-link" href="#">15</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <footer class="footer-section position-relative wow animated slideInUp">
+        <div class="overlay"></div>
+        <div class="container row mx-auto inner-footer-div">
+            <div class="col-lg-3 col-md-12 me-lg-4">
+                <img src="assets/images/logo/white-orange-precious-logo-landscape.png" width="170px" alt="" />
+                <p class="mt-3 text-white mb-4 footer-content">
+                    Empowering your digital transformation with cutting-edge technology,
+                    we turn visionary ideas into reality. Our expert team delivers
+                    tailor-made solutions that drive efficiency, innovation, and growth.
+                </p>
+                <div class="d-flex align-items-center gap-2 social-icon">
+                    <div>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 footer-links mt-3 mt-md-0">
+                <p>Quick Links</p>
+                <ul>
+                    <li><a href="index.html#servicepart"> Industries we serve </a></li>
+                    <li><a href="blog.html"> Blogs </a></li>
+                    <li><a href="portfolio.html"> Portfolio </a></li>
+                    <li><a href="privacypolicy.html" target="_blank"> Privacy Policy </a></li>
+                    <li><a href="faq.html" target="_blank"> FAQ </a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 footer-links">
+                <p>Services</p>
+                <ul>
+                    <li><a href="web-development.html"> Website Development </a></li>
+                    <li><a href="web-development.html"> Mobile App Development </a></li>
+                    <li><a href="web-development.html"> UI/UX Design </a></li>
+                    <li><a href="web-development.html"> Digital Marketing </a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 footer-links">
+                <p>Contact Us</p>
+                <ul>
+                    <li class="text-white d-flex gap-2 mb-3" style="line-height: 1.3; font-size: 14px;">
+                        Address: 
+                            142-A, 3rd floor, New Electronic Complex, Pardesipura,
+                            Indore, MP (452010)
+                    </li>
+                    <li class="text-white d-flex gap-2 flex-wrap">Email: <a href=""> contact@preciousinfosystem.com </a></li>
+                    <li class="text-white d-flex gap-2">Mobile No: <a href=""> +91-9630449441 </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container text-center py-3 text-white w-full footer-bottom-div">
+            All Right Reserved @2024 | Precious Infosystem Pvt. Ltd.
+        </div>
+    </footer>
+
+    <script src="assets/javascript/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
