@@ -35,6 +35,22 @@ $(document).ready(function () {
         },
     });
 });
+$(document).ready(function () {
+    $(".owl-carousel.owl-carousel-header").owlCarousel({
+        loop: true,
+        margin: 70,
+        dots: false,
+        autoplay: true,
+        nav: false,
+        smartSpeed: 1000,
+        autoplayTimeout:4000,
+        responsive: {
+            0: {
+                items: 1,
+            },
+        },
+    });
+});
 
 function cancelFunction() {
     document.getElementById("applymodal").style.display = "none";
